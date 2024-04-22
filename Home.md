@@ -1,5 +1,5 @@
 - [[Usefull resources]]
 - [[Getting Started]]
-- [[Remote dex]]
+- [[Remote Desktop Tools]]
 
 
