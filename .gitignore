@@ -1,0 +1,7 @@
+# OR only to exclude workspace cache
+.obsidian/workspace.json
+.obsidian\plugins\obsidian-5e-statblocks\data.json
+
+# Add below lines to exclude OS settings and caches
+.trash/
+.DS_Store
