@@ -1,1 +1,2 @@
-[link](https://foundryvtt.com/article/installation/)
+[link installazione ufficiale](https://foundryvtt.com/article/installation/)
+
