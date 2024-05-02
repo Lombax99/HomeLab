@@ -18,10 +18,14 @@ This all the host to request actions from the VM. From simple things like shutdo
 
 For the complete installation guide see: [link](https://pve.proxmox.com/wiki/Qemu-guest-agent)
 
-##### Cloud-init
-Tool per automatizzare il templating delle VM linux.
+### Template of VM
+
+
 Creare molte vm a partire da un template necessita che alcuni elementi non siano replicati nelle varie macchine:
 - chiavi ssh
 - /etc/machine-id (/var/lib/dbus/machine-id should be a symbolic link to /etc/machine-id)
 - cache di apt e orphan packages (sudo apt clean and sudo apt autoremove)
-Ci sono anche alcune cose che vorremmo essere pre
+Ci sono anche alcune cose che vorremmo essere presenti ovunque:
+- qemu agent
+##### Cloud-init
+Tool per automatizzare il templating delle VM linux.
