@@ -5,7 +5,6 @@
 - non ha praticamente nulla di security
 
 ### Proxmox
-Proxmox è un "bare metal hypervisor" ovvero un sistema di virtualizzazione molto semplice e potente per generazione di VM, container, sistemi RAID, clustering ecc...
-
+Proxmox è un "bare metal hypervisor" ovvero un sistema di virtualizzazione molto semplice e potente per generazione di VM, container, sistemi RAID, clustering, ecc... che non richiede l'appoggio su un OS pre-esistente. Vedi [[Proxmox]] per maggiori dettagli.
 
 
