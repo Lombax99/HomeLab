@@ -19,9 +19,9 @@ This all the host to request actions from the VM. From simple things like shutdo
 For the complete installation guide see: [link](https://pve.proxmox.com/wiki/Qemu-guest-agent)
 
 ### Template of VM
->[!important] 
-> Trasformare una VM in un template in proxmox è un processo distruttivo, una volta fatto la macchina non sarà più utilizzabile. Ovviamente si può generare una
 
+>[!warning] 
+> Trasformare una VM in un template in proxmox è un processo distruttivo, una volta fatto la macchina non sarà più utilizzabile. Ovviamente si può generare una nuova macchina a partire dal template.
 
 Creare molte vm a partire da un template necessita che alcuni elementi non siano replicati nelle varie macchine:
 - chiavi ssh
