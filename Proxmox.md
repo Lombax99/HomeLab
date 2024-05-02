@@ -37,3 +37,6 @@ Ci sono anche alcune cose che vorremmo essere presenti ovunque:
 ##### Cloud-init
 Tool per automatizzare il templating delle VM linux.
 Per usarlo una volta convertita una macchina in un template è sufficiente andare in "hardware" e creare un "Cloud-init drive".
+
+### Template of Container
+
