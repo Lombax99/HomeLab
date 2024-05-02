@@ -18,3 +18,5 @@ This all the host to request actions from the VM. From simple things like shutdo
 
 For the complete installation guide see: [link](https://pve.proxmox.com/wiki/Qemu-guest-agent)
 
+##### Cloud-init
+Tool per automatizzare il templating delle VM linux
