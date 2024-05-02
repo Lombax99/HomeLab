@@ -24,8 +24,10 @@ For the complete installation guide see: [link](https://pve.proxmox.com/wiki/Qem
 > Trasformare una VM in un template in proxmox è un processo distruttivo, una volta fatto la macchina non sarà più utilizzabile. Ovviamente si può generare una nuova macchina a partire dal template.
 
 Creare molte vm a partire da un template necessita che alcuni elementi non siano replicati nelle varie macchine:
-- chiavi ssh (/etc/ssh     sudo rm ssh_hosts_\*)
+- chiavi ssh 
+	- /etc/ssh     sudo rm ssh_hosts_\*
 - /etc/machine-id (/var/lib/dbus/machine-id should be a symbolic link to /etc/machine-id)
+	- sudo truncate -s 0
 - cache di apt e orphan packages (sudo apt clean and sudo apt autoremove)
 Ci sono anche alcune cose che vorremmo essere presenti ovunque:
 - qemu agent
