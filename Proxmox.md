@@ -1,4 +1,4 @@
-Proxmox full course from LearnLinuxTV
+Proxmox full course from **LearnLinuxTV**: [link](https://www.youtube.com/playlist?list=PLT98CRl2KxKHnlbYhtABg6cF50bYa8Ulo)
 
 ##### QEMU-guest-agent
 The qemu-guest-agent is a helper daemon, which is installed in the guest. It is used to exchange information between the host and guest, and to execute command in the guest.
