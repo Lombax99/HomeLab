@@ -8,5 +8,12 @@ In Proxmox VE, the qemu-guest-agent is used for mainly three things:
 2. To freeze the guest file system when making a backup/snapshot (on windows, use the volume shadow copy service VSS). If the guest agent is enabled and running, it calls _guest-fsfreeze-freeze_ and _guest-fsfreeze-thaw_ to improve consistency.
 3. In the phase when the guest (VM) is resumed after pause (for example after shapshot) it immediately synchronizes its time with the hypervisor using qemu-guest-agent (as first step).
 
-For the complete installation guide see[link](https://pve.proxmox.com/wiki/Qemu-guest-agent)
+**when should use Qemu Guest Agent?**
+"The only time it's not useful is then your trying to make sure you're VM doesn't "know" it's a VM. Like when your trying to "fool" Nvidia drivers.
+
+Otherwise you should always install the agent on the clients THEN check the qemu guest option on the host.
+
+This all the host to request actions from the VM. From simple things like shutdown to more "extreme" things like flush the write buffer buffer and freeze and writes."
+
+For the complete installation guide see: [link](https://pve.proxmox.com/wiki/Qemu-guest-agent)
 
