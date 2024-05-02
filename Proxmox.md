@@ -23,4 +23,5 @@ Tool per automatizzare il templating delle VM linux.
 Creare molte vm a partire da un template necessita che alcuni elementi non siano replicati nelle varie macchine:
 - chiavi ssh
 - /etc/machine-id (/var/lib/dbus/machine-id should be a symbolic link to /etc/machine-id)
-- cache (sudo apt clean)
+- cache di apt e orphan packages (sudo apt clean and sudo apt autoremove)
+Ci sono anche alcune cose che vorremmo essere pre
