@@ -5,6 +5,7 @@
 - non ha praticamente nulla di security
 
 ### Proxmox
-Proxmox è un sistema di virtual
+Proxmox è un sistema di virtualizzazione molto semplice e potente per generazione di VM, container, sistemi RAID ecc...
+
 
 
