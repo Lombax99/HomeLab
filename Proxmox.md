@@ -29,7 +29,9 @@ Creare molte vm a partire da un template necessita che alcuni elementi non siano
 - /etc/machine-id (/var/lib/dbus/machine-id should be a symbolic link to /etc/machine-id)
 	- sudo truncate -s 0 /etc/machine-id
 	- opz.: sudo ln -s /etc/machine-id /var/lib/dbus/machine-id  (will make a symbolic link)
-- cache di apt e orphan packages (sudo apt clean and sudo apt autoremove)
+- cache di apt e orphan packages 
+	- sudo apt clean 
+	- sudo apt autoremove
 Ci sono anche alcune cose che vorremmo essere presenti ovunque:
 - qemu agent
 ##### Cloud-init
