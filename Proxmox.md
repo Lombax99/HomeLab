@@ -25,7 +25,7 @@ For the complete installation guide see: [link](https://pve.proxmox.com/wiki/Qem
 
 Creare molte vm a partire da un template necessita che alcuni elementi non siano replicati nelle varie macchine:
 - chiavi ssh 
-	- /etc/ssh     sudo rm ssh_hosts_\*
+	- /etc/ssh     sudo rm ssh_hosts_\* (questo potrebbe aver rotto qualcosa...)
 - /etc/machine-id (/var/lib/dbus/machine-id should be a symbolic link to /etc/machine-id)
 	- sudo truncate -s 0 /etc/machine-id
 	- opz.: sudo ln -s /etc/machine-id /var/lib/dbus/machine-id  (will make a symbolic link)
