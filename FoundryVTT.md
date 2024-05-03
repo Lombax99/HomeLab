@@ -4,6 +4,7 @@
 
 [foundry swag docker](https://github.com/ChefsSlaad/foundry_swag_docker/tree/main)
 Ho seguito quest'ultimo tutorial con un paio di note:
-1) il docker di foundry non è p
+1) il docker di foundry usato nel tutorial non è più disponibile quindi ne ho dovuto usare un altro, ho preso quello banalotto dalla wiki di foundry
+2) nginx vuole che tutti i file di conf per fare da reverse proxy f
 
 
