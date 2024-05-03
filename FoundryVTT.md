@@ -5,6 +5,7 @@
 [foundry swag docker](https://github.com/ChefsSlaad/foundry_swag_docker/tree/main)
 Ho seguito quest'ultimo tutorial con un paio di note:
 1) il docker di foundry usato nel tutorial non è più disponibile quindi ne ho dovuto usare un altro, ho preso quello banalotto dalla wiki di foundry
-2) nginx vuole che tutti i file di conf per fare da reverse proxy f
+2) nginx vuole che tutti i file di conf per fare da reverse proxy finiscano con .conf
+3) nel file di conf del reverse proxy la definizione del link a cui forwardare mi manda in redirect loop, per evitare il problema ho definito io a mano il link come http:
 
 
