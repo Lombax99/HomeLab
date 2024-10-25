@@ -14,6 +14,8 @@ Da fare ogni tanto:
 ```bash
 sudo apt update
 sudo apt upgrade
+
+
 ```
 
 
