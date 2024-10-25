@@ -18,4 +18,5 @@ sudo apt upgrade
 
 
 ### Updating Foundry
-La maggior parte degli update possono essere fatti direttamente da foundry ma in alcuni casi, in corrispondenza di patch maggiori l'app potrebbe richiedere di essere aggiornata manualmente.
+La maggior parte degli update possono essere fatti direttamente da foundry ma in alcuni casi, in corrispondenza di patch maggiori l'app potrebbe richiedere di essere aggiornata manualmente:
+
