@@ -9,3 +9,4 @@ Ho seguito quest'ultimo tutorial con un paio di note:
 3) nel file di conf del reverse proxy la definizione del link a cui forwardare mi manda in redirect loop, per evitare il problema ho definito io a mano il link come http://foundry:3000/ 
 4) Serve fare portforwarding anche della porta 80 come indicato nel tutorial per check di nginx
 
+
