@@ -20,3 +20,4 @@ sudo apt upgrade
 ### Updating Foundry
 La maggior parte degli update possono essere fatti direttamente da foundry ma in alcuni casi, in corrispondenza di patch maggiori l'app potrebbe richiedere di essere aggiornata manualmente:
 
+1) Aprire il sito di Foundry e dall'area personale scaricare la nuova versione per Linux/Node
