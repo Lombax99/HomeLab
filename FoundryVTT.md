@@ -24,3 +24,8 @@ La maggior parte degli update possono essere fatti direttamente da foundry ma in
 2) Extract all files
 3) Save all files in the folder `~/foundryvtt/` sovrascrivendo tutti i file presenti
 
+then restart the docker compose forcing a rebuild of the docker images:
+```
+docker compose down
+docker compose up -d --build
+```
