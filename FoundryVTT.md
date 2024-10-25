@@ -32,4 +32,7 @@ docker compose down
 docker compose up -d --build
 ```
 
-in caso di problemi 
+in caso di problemi
+```
+docker compose logs
+```
