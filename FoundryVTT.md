@@ -22,4 +22,5 @@ La maggior parte degli update possono essere fatti direttamente da foundry ma in
 
 1) Aprire il sito di Foundry e dall'area personale scaricare la nuova versione per Linux/Node
 2) Extract all files
-3) Save all files in the folder ``
+3) Save all files in the folder `~/foundryvtt/` sovrascrivendo tutti i file presenti
+
