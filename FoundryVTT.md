@@ -15,7 +15,7 @@ Da fare ogni tanto:
 sudo apt update
 sudo apt upgrade
 
-
+docker compose pull             #will update swag e duckdns
 ```
 
 
