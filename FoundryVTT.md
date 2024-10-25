@@ -10,3 +10,12 @@ Ho seguito quest'ultimo tutorial con un paio di note:
 4) Serve fare portforwarding anche della porta 80 come indicato nel tutorial per check di nginx
 
 
+Da fare ogni tanto:
+```bash
+sudo apt update
+sudo apt upgrade
+```
+
+
+### Updating Foundry
+
