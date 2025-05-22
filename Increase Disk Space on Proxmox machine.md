@@ -55,12 +55,18 @@ To use **all** available space:
 sudo lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
 ```
 
-## Step 5: Resize the Filesystem*
+## Step 5: Resize the Filesystem
 
 #### For ext4 (likely on Ubuntu):
 
-bash
+```shell
+sudo resize2fs /dev/ubuntu-vg/ubuntu-lv
+```
 
-CopiaModifica
+## Final Check
 
-`sudo resize2fs /dev/ubuntu-vg/ubuntu-lv`
+```shell
+df -h
+```
+
+Your `/` should now reflect the new size.
