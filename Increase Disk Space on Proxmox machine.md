@@ -16,20 +16,13 @@ You're resizing the physical partition (`/dev/sda3`) to include the new space.
 
 ```shell
 lsblk
+	sda
+	├─sda1       (EFI or boot)
+	├─sda2       /boot
+	└─sda3       part of LVM group "ubuntu--vg"
 ```
 
-Look for:
-
-bash
-
-CopiaModifica
-
-`sda ├─sda1       (EFI or boot) ├─sda2       /boot └─sda3       part of LVM group "ubuntu--vg"`
 
 #### 2. Resize partition (safely) with `growpart`
 
-bash
-
-CopiaModifica
-
-`sudo apt install cloud-guest-utils sudo growpart /dev/sda 3`
+```sudo apt install cloud-guest-utils sudo growpart /dev/sda 3```
