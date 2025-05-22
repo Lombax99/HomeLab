@@ -39,3 +39,28 @@ Now tell LVM to use the new space in `/dev/sda3`.
 sudo pvresize /dev/sda3
 ```
 
+## Step 4: Extend the Logical Volume
+
+#### 1. Find the name (should be something like `ubuntu--vg-ubuntu--lv`)
+
+```shell
+sudo lvdisplay
+```
+
+#### 2. Extend the volume
+
+To use **all** available space:
+
+```shell
+sudo lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
+```
+
+## Step 5: Resize the Filesystem*
+
+#### For ext4 (likely on Ubuntu):
+
+bash
+
+CopiaModifica
+
+`sudo resize2fs /dev/ubuntu-vg/ubuntu-lv`
