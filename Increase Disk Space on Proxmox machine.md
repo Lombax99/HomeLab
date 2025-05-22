@@ -25,4 +25,17 @@ lsblk
 
 #### 2. Resize partition (safely) with `growpart`
 
-```sudo apt install cloud-guest-utils sudo growpart /dev/sda 3```
+```shell
+sudo apt install cloud-guest-utils 
+sudo growpart /dev/sda 3
+```
+
+
+## Step 3: Resize the LVM Physical Volume
+
+Now tell LVM to use the new space in `/dev/sda3`.
+
+```shell
+sudo pvresize /dev/sda3
+```
+
