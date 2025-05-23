@@ -69,5 +69,5 @@ I've also modified /var/www/nc-server/config/config.php adding:
 ```
 In the end i reversed to a previous version without this code snippet and worked with http for now.
 
-Another possible route is to use a full docker compose 
+Another possible route is to use a full docker compose as in this video https://www.youtube.com/watch?v=u338i2JwRQw&t=400s
 
