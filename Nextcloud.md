@@ -26,5 +26,17 @@ change to `<VirtualHost *:8080>`
 setup nginx with docker compose:
 
 ```yaml
-
+services:
+  nginx-proxy-manager:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'        # HTTP
+      - '81:81'        # Admin UI
+      - '443:443'      # HTTPS
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
 ```
+
+
