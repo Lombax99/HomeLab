@@ -21,4 +21,10 @@ sudo nano /etc/apache2/sites-available/nc-server.conf
 
 change to `<VirtualHost *:8080>`
 
+----
 
+setup nginx with docker compose:
+
+```yaml
+
+```
