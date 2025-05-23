@@ -1,4 +1,8 @@
 
 Installed on linux machine following this tutorial: https://www.youtube.com/watch?v=fpr37FJSgrw
 
-To have a TLS certificate for a Domain Name that point to a lan address i decided to use Nginx and let's encrypt to 
+To have a TLS certificate for a Domain Name that point to a lan address i decided to use Nginx and let's encrypt to do it since certbot cannot.
+
+To do that i need to move nexcloud (apache2) to a different port so that nginx can have the 80 and 443.
+
+1) 
