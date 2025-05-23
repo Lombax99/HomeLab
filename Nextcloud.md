@@ -5,4 +5,7 @@ To have a TLS certificate for a Domain Name that point to a lan address i decide
 
 To do that i need to move nexcloud (apache2) to a different port so that nginx can have the 80 and 443.
 
-1) 
+1) Edit Apache port configuration:
+```shell
+sudo nano /etc/apache2/ports.conf
+```
