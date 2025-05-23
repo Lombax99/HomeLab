@@ -39,4 +39,11 @@ services:
       - ./letsencrypt:/etc/letsencrypt
 ```
 
+On nginx admin UI i set up a 
 
+
+
+and a Proxy Host
+
+![[Pasted image 20250523163020.png]]
+![[Pasted image 20250523163040.png]]
