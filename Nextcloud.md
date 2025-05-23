@@ -60,7 +60,7 @@ PORCA DI QUELLA PUTTANA IL DNS DI TIM NON RIESCE A TRADURRE L'INDIRIZZO DUCKDNS 
 
 
 
-I've also modified /var/www/nextcloud/config/config.php adding:
+I've also modified /var/www/nc-server/config/config.php adding:
 ```php
   'overwrite.cli.url' => 'https://avenrossnextcloudserver.duckdns.org',
   'overwritehost' => 'avenrossnextcloudserver.duckdns.org',
