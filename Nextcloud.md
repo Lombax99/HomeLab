@@ -9,3 +9,7 @@ To do that i need to move nexcloud (apache2) to a different port so that nginx c
 ```shell
 sudo nano /etc/apache2/ports.conf
 ```
+
+change to `Listen 8080`
+
+2) Edit the VirtualHost for Nextcloud:
