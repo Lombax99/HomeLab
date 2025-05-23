@@ -48,5 +48,5 @@ and a Proxy Host
 ![[Pasted image 20250523163020.png]]
 ![[Pasted image 20250523163040.png]]
 ![[Pasted image 20250523163059.png]]
-
+**NOTA:** Forward Hostname depend on the configuration of the machine, if nextcloud and nginx are in the same do
 
