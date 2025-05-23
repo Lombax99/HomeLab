@@ -41,7 +41,7 @@ services:
 
 On nginx admin UI i set up the SSL certificate
 
-
+![[Pasted image 20250523163241.png]]
 
 and a Proxy Host
 
