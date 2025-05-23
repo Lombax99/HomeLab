@@ -39,7 +39,7 @@ services:
       - ./letsencrypt:/etc/letsencrypt
 ```
 
-On nginx admin UI i set up a 
+On nginx admin UI i set up the SSL certificate
 
 
 
@@ -47,3 +47,6 @@ and a Proxy Host
 
 ![[Pasted image 20250523163020.png]]
 ![[Pasted image 20250523163040.png]]
+![[Pasted image 20250523163059.png]]
+
+
