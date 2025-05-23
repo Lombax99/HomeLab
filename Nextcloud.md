@@ -67,3 +67,7 @@ I've also modified /var/www/nc-server/config/config.php adding:
   'overwriteprotocol' => 'https',
   'trusted_proxies' => ['127.0.0.1', '192.168.1.120'], // Replace with NGINX IP if it's different
 ```
+In the end i reversed to a previous version without this code snippet and worked with http for now.
+
+Another possible route is to use a full docker compose 
+
