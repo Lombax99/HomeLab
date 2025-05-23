@@ -48,5 +48,5 @@ and a Proxy Host
 ![[Pasted image 20250523163020.png]]
 ![[Pasted image 20250523163040.png]]
 ![[Pasted image 20250523163059.png]]
-**NOTA:** Forward Hostname depend on the configuration of the machine, if nextcloud and nginx are in the same dokcer compose you can use 127.0.0.1, if you have nextcloud outside (in the server itself) you need the server address 192.168.1.120 in my case
+**NOTA:** Forward Hostname depend on the configuration of the machine, if nextcloud and nginx are in the same dokcer compose you can use 127.0.0.1, if you have nextcloud outside (in the server itself) you need the server address 192.168.1.120 in my case.
 
