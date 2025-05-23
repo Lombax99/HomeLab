@@ -13,3 +13,10 @@ sudo nano /etc/apache2/ports.conf
 change to `Listen 8080`
 
 2) Edit the VirtualHost for Nextcloud:
+```shell
+sudo nano /etc/apache2/sites-available/000-default.conf
+```
+
+change to `<VirtualHost *:8080>`
+
+
