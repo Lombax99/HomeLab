@@ -20,6 +20,14 @@ docker compose pull             #will update swag e duckdns
 
 
 ### Updating Foundry
+Right now I'm using the felddy docker, so I only need to do:
+```bash
+docker compose down
+docker compose pull foundry
+docker compose up -d --build
+```
+
+### Update local Foundry
 La maggior parte degli update possono essere fatti direttamente da foundry ma in alcuni casi, in corrispondenza di patch maggiori l'app potrebbe richiedere di essere aggiornata manualmente:
 
 1) Aprire il sito di Foundry e dall'area personale scaricare la nuova versione per Linux/Node
